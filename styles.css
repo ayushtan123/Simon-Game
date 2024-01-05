@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  margin-bottom: 15px;
+  color: #fef2bf;
+  
+}
+#simon {
+  font-family:cursive;
+  font-size: 4rem;
+  margin: 5%;
+  color: #8bd785;
+  margin-bottom: -10px;
+}
+
+#simon:hover{
+  font-size: 5rem;
+  color: white;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.footer{
+  border-radius: 50px;
+  position: absolute;
+  padding: 8px;
+  margin: 5px;
+  color: white;
+  width: 95%;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.btnsa button{
+  gap: 100px;
+  width: 80px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.lk{
+  background-color: #0077B5;
+  color: white;
+  margin-right: 10px;
+}
+
+.gb{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
